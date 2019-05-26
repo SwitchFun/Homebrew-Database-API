@@ -5,3 +5,6 @@
 <p>API-Retrieve.php - Retrieves value "APP_URL" from a database.</p>
 <br\>
 <p>API-Insert.php - Registering value "APP_URL" to a database.</p>
+<br\>
+<h2>Dependancies:</h2>
+<p>PHP, Meekrodb and a SQL database.</p>
