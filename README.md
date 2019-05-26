@@ -1,4 +1,3 @@
-<br\>
 <h1>Homebrew Database</h1>
 <p>The Main bot is closed source, though we have decided to open source the API for others.</p>
 <br\>
