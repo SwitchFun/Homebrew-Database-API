@@ -1,11 +1,8 @@
 <?php
-
-//api-insert.php is for registering homebrew applications.
-
 $title = $_GET['TITLE'];
 $url = $_GET['URL'];
 $ver = "Public";
-$author = $_GET['UNKNOWN'];
+$author = $_GET['Author'];
 //Import SQL crap
 include "meekrodb.2.3.class.php";
 require_once 'meekrodb.2.3.class.php';
@@ -18,7 +15,7 @@ $appname = $_GET['app'];
 DB::insert('app', array(
   'APP_TITLE' => $title,
   'APP_VERSION' => "Public",
-  'APP_AUTHOR' => "Unknown",
+  'APP_AUTHOR' => $author,
   'APP_URL' => $url
 ));
 
